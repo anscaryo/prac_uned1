@@ -1,0 +1,23 @@
+comandos_git.txt
+git init (inicia git en la carpeta)
+git add . (agrega todos los archivos de lar carpeta)
+git commit -m "comentario" (para crear el inicio de un 									repositorio si se pone -am, añade
+			    los archivos y crea el comentario)
+git status -s "Indica el estado de los archivos"
+git log --oneline
+
+git commit --amend (permite editar un commit con vim)
+…----------or create a new repository on the command line------------
+echo "# prac_uned1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anscaryo/prac_uned1.git
+git push -u origin main
+
+
+…---------or push an existing repository from the command line-------
+git remote add origin https://github.com/anscaryo/prac_uned1.git
+git branch -M main
+git push -u origin main
